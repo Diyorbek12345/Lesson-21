@@ -35,7 +35,7 @@ function getUserRow(user) {
      <div class="btns">
       <a class="btn" href="posts.html?posts=${user.id}">Posts</a>
       <a class="btn" href="todos.html?posts=${user.id}">todos</a>
-      <a class="btn" href="./galareya.html">gala</a>
+      <a class="btn" href="album.html?posts=${user.id}">gala</a>
      </div>
     </div>
     </div>

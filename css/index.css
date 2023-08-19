@@ -63,7 +63,7 @@ svg {
   display: block;
   font: 10.5em "Montserrat";
   width: 960px;
-  left: 350px;
+  left: 290px;
   height: 300px;
   margin: 0 auto;
 }
@@ -110,7 +110,8 @@ svg {
 
 .title {
   margin-top: 50px;
-  margin-left: 700px;
+  margin-bottom: 100px;
+  margin-left:550px;
   color: white;
 }
 

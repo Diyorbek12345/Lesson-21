@@ -59,9 +59,11 @@ body {
 }
 
 svg {
+  position: fixed;
   display: block;
   font: 10.5em "Montserrat";
   width: 960px;
+  left: 350px;
   height: 300px;
   margin: 0 auto;
 }

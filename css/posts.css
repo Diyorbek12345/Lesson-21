@@ -63,9 +63,11 @@ body {
 }
 
 svg {
+  position: fixed;
   display: block;
   font: 10.5em "Montserrat";
   width: 960px;
+  left: 350px;
   height: 300px;
   margin: 0 auto;
 }
@@ -116,59 +118,54 @@ svg {
   color: white;
 }
 
-.card{
-    max-width: 400px;
-      padding: 10px;
-      background: rgba(255, 255, 255, 0.2);
-      border-radius: 16px;
-      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-      backdrop-filter: blur(5px);
-      -webkit-backdrop-filter: blur(5px);
-      border: 1px solid rgba(255, 255, 255, 0.3);
+.card {
+  max-width: 400px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-
-.post__inner{
+.post__inner {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-
 }
 
-.id{
+.id {
   color: red;
-  
 }
 
-.btn__todo{
+.btn__todo {
   background-color: antiquewhite;
 
   padding: 10px;
 }
 
-.user__name{
+.user__name {
   color: aqua;
 }
 
-.user__text{
+.user__text {
   color: blue;
   margin-bottom: 20px;
 }
 
-@media screen and (max-width:1000px) {
-.post__inner {
+@media screen and (max-width: 1000px) {
+  .post__inner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-
   }
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width: 1000px) {
   .post__inner {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
-
   }
 }

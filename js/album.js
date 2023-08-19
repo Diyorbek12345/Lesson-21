@@ -36,9 +36,9 @@ function getUserRow(albums) {
 <div class="card">
   <div class="user__box">
     <p class="id">Id: ${albums.id}</p>
-    <h3 class="album__name" style="margin-top:10px;">Title: ${albums.title}</h3>
+    <h3 class="album__name">Title: ${albums.title}</h3>
   </div>
-    <a href="galareya.html?galareya=${albums.id}" class="btn btn__album">Photos</a>
+    <a href="galareya.html?posts=${albums.id}" class="btn btn__album">Photos</a>
 </div>
 `;
 }
